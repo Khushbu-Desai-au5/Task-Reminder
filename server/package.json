@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www "
+  },
+  "dependencies": {
+    "express": "~4.16.1",
+    "http-errors": "^1.6.3",
+    "pg": "^7.18.2",
+    "sequelize": "^5.21.5"
+  }
+}
