@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -56,24 +55,4 @@
     ]
   },
   "proxy": "http://localhost:5000/"
-=======
-  "name": "server",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www",
-    "dev": "nodemon ./bin/www "
-  },
-  "dependencies": {
-    "cookie-parser": "^1.4.5",
-    "dotenv": "^8.2.0",
-    "express": "~4.16.1",
-    "http-errors": "^1.6.3",
-    "jsonwebtoken": "^8.5.1",
-    "moment": "^2.26.0",
-    "nodemailer": "^6.4.8",
-    "pg": "^7.18.2",
-    "sequelize": "^5.21.5"
-  }
->>>>>>> 1251f3af75e1c3b8edd95c6dc200d1e29680a418
 }
